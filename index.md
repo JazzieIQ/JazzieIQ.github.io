@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <head>
   <h1 style="color:blue;"> HELLO WORLD !!</h1><br>
 </head>
@@ -8,4 +7,3 @@
      <li>Hola Mundo</li>
   </ul>
 </body>
-</html>
