@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html>
 <head>
 </head>
 <body>
@@ -7,6 +6,6 @@
   <!-- ul>li*10 -->
   <ul>
      <li>Hola Mundo</li>
-  </ul
+  </ul>
 </body>
 </html>
