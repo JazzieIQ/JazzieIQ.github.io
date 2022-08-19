@@ -3,8 +3,7 @@
 <head>
 </head>
 <body>
-
-<h1>HELLO WORLD !!</h1> <br>
+<h1 style="color:blue;"> HELLO WORLD !!</h1><br>
   <!-- ul>li*10 -->
   <ul>
      <li>Hola Mundo</li>
