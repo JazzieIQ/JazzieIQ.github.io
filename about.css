@@ -1,0 +1,23 @@
+* {color:antiquewhite}
+a {
+    color: darkblue;
+    font-size: 400%;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:link {
+    color: #00F;
+}
+
+a:hover {
+    color: #F00;
+}
+
+a:visited {
+    color: yellow;
+}
+
+a:active {
+    color: #0F0;
+}
