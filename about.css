@@ -1,4 +1,7 @@
-* {color:antiquewhite}
+* {
+    font-size: 200%;
+    color:antiquewhite
+}
 a {
     color: darkblue;
     font-size: 400%;

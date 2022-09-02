@@ -1,0 +1,25 @@
+* {
+    font-size: 125%;
+}
+.intro {color: antiquewhite;}
+.logo {
+    font-size: 150%;
+    color: antiquewhite;
+}
+.article-text {
+    font-family: cursive;
+}
+.nav {
+    color: blue;
+    font-size: larger;
+}
+a {
+    color: blue;
+    font-size: larger;
+}
+article {
+    font-family: cursive;
+    font-style: italic;
+    color: antiquewhite;
+}
+footer {color: antiquewhite;}
