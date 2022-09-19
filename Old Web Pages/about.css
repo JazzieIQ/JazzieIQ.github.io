@@ -2,6 +2,8 @@
     font-size: 130%;
     color:antiquewhite
 }
+body {background-size: cover;
+    background-repeat: no repeat;}
 a {
     color: darkblue;
     font-size: 100%;

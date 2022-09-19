@@ -1,6 +1,8 @@
 ::first-letter {color: #F00;}
 ::first-line {font-size: 400%;}
 .intro {color: whitesmoke;height: fit-content; border: darkblue;}
+body {background-size: cover;
+    background-repeat: no repeat;}
 .numbered-list {
         color: orangered;
         height: fit-content;
