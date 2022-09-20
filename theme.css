@@ -286,6 +286,7 @@ figure {
 img,
 svg {
   vertical-align: middle;
+  object-fit: cover;
 }
 
 table {
@@ -4681,7 +4682,7 @@ fieldset:disabled .btn {
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #757575;
+  color: white;
   background-color: #000;
   border-color: transparent;
 }
