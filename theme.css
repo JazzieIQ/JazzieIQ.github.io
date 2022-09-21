@@ -1613,7 +1613,7 @@ progress {
     flex: 0 0 auto;
     width: 50%;
   }
-  ..h5.memorium-text{
+  .h5.memorium-text{
           padding: 0ch;
           Margin: 0;
         }
