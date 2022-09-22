@@ -606,6 +606,7 @@ body {background-size: cover;
         border: darkblue;
     }
 .summary {
+    font-size: xx-large;
         color: whitesmoke;
         height: fit-content;
         border: darkblue;
