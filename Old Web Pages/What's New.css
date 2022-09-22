@@ -1,9 +1,8 @@
 ::first-letter {color: #F00;}
-::first-line {font-size: 400%;}
 .intro {color: whitesmoke;height: fit-content; border: darkblue;}
 body {background-size: cover;
     background-repeat: no repeat;}
-        .nav {
+.nav {
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex;
