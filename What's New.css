@@ -1,5 +1,4 @@
 ::first-letter {color: #F00;}
-.intro {color: whitesmoke;height: fit-content; border: darkblue;}
 body {background-size: cover;
     background-repeat: no repeat;}
 .nav {
@@ -600,6 +599,10 @@ body {background-size: cover;
         height: fit-content;
         border: rgb(0, 139, 42);
                 }
+.intro { color: whitesmoke;
+        height: fit-content;
+        border: darkblue;
+        }
 .links {
         color: darkblue;
         height: fit-content;
@@ -611,7 +614,7 @@ body {background-size: cover;
         height: fit-content;
         border: darkblue;
     }
-ol {font-size: xx-large; color:darkorange;
+.icons {font-size: xx-large; color:darkorange;
     font-family: Georgia;
 }
 .li {font-family:serif;}
@@ -627,7 +630,7 @@ ol {font-size: xx-large; color:darkorange;
     font-family: Helvetica;
     font-size: xx-large;}
 a {
-    font-size: 400%;
+    font-size: 100%;
     text-decoration: none;
     font-weight: bold;
     }
