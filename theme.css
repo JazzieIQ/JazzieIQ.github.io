@@ -362,7 +362,7 @@ select:disabled {
 [list]::-webkit-calendar-picker-indicator {
   display: none;
 }
-
+.icons list
 button,
 [type="button"],
 [type="reset"],
