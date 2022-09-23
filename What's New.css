@@ -1,6 +1,6 @@
-::first-letter {color: #F00;}
 body {background-size: cover;
-    background-repeat: no repeat;}
+    background-repeat: no repeat;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
 .nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -504,12 +504,12 @@ body {background-size: cover;
 }
 
 .navbar-light .navbar-brand {
-    color: #B98F7D;
+    color:ghostwhite;
 }
 
 .navbar-light .navbar-brand:hover,
 .navbar-light .navbar-brand:focus {
-    color: #B98F7D;
+    color: rgba(249, 250, 253, 0.95);
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -594,59 +594,9 @@ body {background-size: cover;
 .navbar-dark .navbar-text a:focus {
     color: #FFFEFE;
 }
-.numbered-list {
-        color: orangered;
-        height: fit-content;
-        border: rgb(0, 139, 42);
-                }
-.intro { color: whitesmoke;
-        height: fit-content;
-        border: darkblue;
-        }
-.links {
-        color: darkblue;
-        height: fit-content;
-        border: darkblue;
-    }
-.summary {
-    font-size: xx-large;
-        color: whitesmoke;
-        height: fit-content;
-        border: darkblue;
-    }
-.icons {font-size: xx-large; color:darkorange;
-    font-family: Georgia;
-}
-.li {font-family:serif;}
-.item1 {
-    color:darkblue;
-    font-style: italic;}
-.item2 { color: blueviolet;
-    font-size: larger;}
-.item3 {color: aquamarine;}
-.item4 {color: #0F0;}
-.item7 {
-    color: brown;
-    font-family: Helvetica;
-    font-size: xx-large;}
-a {
-    font-size: 100%;
-    text-decoration: none;
-    font-weight: bold;
-    }
-
-a:link {
-    color: #00F;
-}
-
-a:hover {
-    color: #F00;
-}
-
-a:visited {
-    color: yellow;
-}
-
-a:active {
-    color: #0F0;
+.home {color: ghostwhite;}
+.intro {
+    color: whitesmoke;
+    height: fit-content;
+    border: darkblue;
 }

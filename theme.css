@@ -466,6 +466,8 @@ iframe {
 }
 
 summary {
+  padding: .5rem;
+  font-size: xx-large;
   display: list-item;
   cursor: pointer;
 }
