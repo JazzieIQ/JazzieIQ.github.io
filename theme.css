@@ -220,7 +220,6 @@ a {
   color: #212121;
   text-decoration: none;
 }
-
 a:hover {
   color: #1a1a1a;
   text-decoration: none;
@@ -363,7 +362,7 @@ select:disabled {
 [list]::-webkit-calendar-picker-indicator {
   display: none;
 }
-
+.icons list
 button,
 [type="button"],
 [type="reset"],
@@ -466,6 +465,8 @@ iframe {
 }
 
 summary {
+  padding: .5rem;
+  font-size: xx-large;
   display: list-item;
   cursor: pointer;
 }
