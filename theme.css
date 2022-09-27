@@ -6930,7 +6930,7 @@ fieldset:disabled .btn {
   text-align: center;
   background: none;
   border: 0;
-  opacity: 0.9;
+  opacity: 0.9; 
   -webkit-transition: opacity 0.15s ease;
   -o-transition: opacity 0.15s ease;
   transition: opacity 0.15s ease;
