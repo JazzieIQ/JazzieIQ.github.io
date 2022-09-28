@@ -31,9 +31,7 @@
     style="
       background-repeat: no-repeat;
       background-position: top;
-      background-size: auto;
-    "
-  >
+      background-size: auto;">
     <!-- ===============================================-->
     <!--    Main Content-->
     <!-- ===============================================-->
@@ -95,34 +93,27 @@
           </div>
         </div>
       </nav>
-      <section class="py-0" id="header">
+      <section class="py-0 mt-10" id="header">
         <div class="container">
-          <div class="row align-items-center min-vh-100 min-vh-xl-100">
-            <div class="col-md-8 col-lg-6 text-md-start text-center">
-              <div class="pt-12" id="nav button">
-                <a
-                  class="btn btn-lg btn-primary"
-                  aria-label="navbar-toggler"
-                  href="#nav-collapsed.show"
-                  >Take a tour!</a
-                >
+          <div class="row min-vh-100 min-vh-xl-100">
+            <div class="container">
+              <div class="col-2 justify-content-start align-content-start" id="nav button">
+                <button class="btn btn-lg btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Taka a Tour!
+                </button>
+                <div class="collapse col-10 justify-content-end align-content-end" id="collapseExample">
+                  <div class="card card-body">
+                    Follow the "Hola Mundo!" menu tab to take a suggested direction through my content. If you get lost make you can just the other menu options to find a good page to go back too.
+                  </div>
+                </div>
               </div>
-  <button class="btn btn-lg btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-    Taka a Tour!
-  </button>
-<div class="collapse" id="collapseExample">
-  <div class="card card-body">
-    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-  </div>
-</div>
-              <div>
-                <h1 class="text-light fs-2 fw-bold ms-2">
-                  Welcome to my small world <br class="d-none d-xxl-block" />
-                  of content!
-                </h1>
-              </div>
-              <div class="col-md-8 col-lg-8 flex-end-center justify-content-right">
-                <iframe
+              <div class="container d-flex col-12">
+                <div class="col-4">
+                  <h1 class="fst-normal text-light">
+                    Welcome to my small world of content!
+                  </h1>
+                </div>
+                <div class="container d-flex contain col-md-6 col-lg-8">
+                  <iframe
                   width="800"
                   height="500"
                   src="https://www.youtube.com/embed/cnYwATiXSNc?autoplay=0"
@@ -131,7 +122,8 @@
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowautoplay
                   allowfullscreen
-                ></iframe>
+                  ></iframe>
+                </div>
               </div>
             </div>
           </div>
