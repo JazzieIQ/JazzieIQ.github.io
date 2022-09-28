@@ -4643,6 +4643,10 @@ fieldset:disabled .btn {
   list-style: none;
 }
 
+.nav-a:hover {
+  color: #1a1a1a;
+  text-decoration: none;
+}
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
