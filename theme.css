@@ -683,7 +683,6 @@ progress {
   margin-right: calc(var(--bs-gutter-x) / -2);
   margin-left: calc(var(--bs-gutter-x) / -2);
 }
-
 .row > * {
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -700,6 +699,9 @@ progress {
   flex: 1 0 0%;
 }
 
+.row-card {
+  padding:0%;}
+  
 .row-cols-auto > * {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 auto;
@@ -5194,7 +5196,7 @@ fieldset:disabled .btn {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  display: d-flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -5203,9 +5205,10 @@ fieldset:disabled .btn {
   word-wrap: break-word;
   background-color: #FFFEFE;
   background-clip: border-box;
-  border: 1px solid rgba(249, 250, 253, 0.125);
+  border: 0 solid rgba(249, 250, 253, 0.125);
   border-radius: 0;
 }
+.card-tour-article
 
 .card > hr {
   margin-right: 0;

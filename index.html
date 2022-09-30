@@ -31,9 +31,7 @@
     style="
       background-repeat: no-repeat;
       background-position: top;
-      background-size: auto;
-    "
-  >
+      background-size: auto;">
     <!-- ===============================================-->
     <!--    Main Content-->
     <!-- ===============================================-->
@@ -95,34 +93,18 @@
           </div>
         </div>
       </nav>
-      <section class="py-0" id="header">
-        <div class="container">
-          <div class="row align-items-center min-vh-100 min-vh-xl-100">
-            <div class="col-md-8 col-lg-6 text-md-start text-center">
-              <div class="pt-12" id="nav button">
-                <a
-                  class="btn btn-lg btn-primary"
-                  aria-label="navbar-toggler"
-                  href="#nav-collapsed.show"
-                  >Take a tour!</a
-                >
-              </div>
-  <button class="btn btn-lg btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-    Taka a Tour!
-  </button>
-<div class="collapse" id="collapseExample">
-  <div class="card card-body">
-    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-  </div>
-</div>
-              <div>
-                <h1 class="text-light fs-2 fw-bold ms-2">
-                  Welcome to my small world <br class="d-none d-xxl-block" />
-                  of content!
-                </h1>
-              </div>
-              <div class="col-md-8 col-lg-8 flex-end-center justify-content-right">
-                <iframe
+      <section class="mt-10" id="header">
+        <div class="container-lg bg-holder bg-dark-gradient">
+          <div class="row min-vh-100 min-vh-xl-100">
+            <div class="container-lg">
+              <div class="container d-flex col-12">
+                <div class="col-4">
+                  <h1 class="fst-normal text-light">
+                    Welcome to my small world of content!
+                  </h1>
+                </div>
+                <div class="container d-flex contain col-md-6 col-lg-8">
+                  <iframe
                   width="800"
                   height="500"
                   src="https://www.youtube.com/embed/cnYwATiXSNc?autoplay=0"
@@ -131,107 +113,116 @@
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowautoplay
                   allowfullscreen
-                ></iframe>
+                  ></iframe>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="py-8 pt-0" id="Content">
-        <div
-          class="bg-holder bg-gradient"
-        ></div>
-        <!--/.bg-holder-->
-        <div class="container-lg">
-          <div class="row flex">
-            <div class="col-sm-10 col-md-6 col-lg-12">
-              <div class="col-12 position-relative ms-auto py-5 bg-dark">
-                <a
-                  class="carousel-control-prev carousel-icon z-index-2"
-                  href="#carouselFade"
-                  role="button"
-                  data-bs-slide="prev"
-                  ><span
-                    class="carousel-control-prev-icon"
-                    aria-hidden="true"
-                  ></span
-                  ><span class="visually-hidden">Previous</span></a
-                ><a
-                  class="carousel-control-next carousel-icon z-index-2"
-                  href="#carouselFade"
-                  role="button"
-                  data-bs-slide="next"
-                  ><span
-                    class="carousel-control-next-icon"
-                    aria-hidden="true"
-                  ></span
-                  ><span class="visually-hidden">Next</span></a
-                >
-              </div>
-              <div
-                class="carousel slide carousel-fade bg-gradient"
-                id="carouselFade"
-                data-bs-ride="carousel">
-                <div class="carousel-inner bg-dark-gradient">
-                  <div class="carousel-item bg-dark-gradient active" data-bs-interval="20000">
-                    <div class="row">
-                      <div class="container col-3">
-                        <img src="/img/About/Smiling.jpg" alt="">
-                      </div>
-                      <div class="container bg-dark-gradient col-8 justify-content-end" style="text-align:end">
-                        <h5 class="fs-3 fs-lg-5 lh-sm">
-                          My Content
-                        </h5>
-                        <p class="my-4 pe-xl-5 text-white" style="font-size: 2.5rem ; font-style: bold; font-family: Arial, Helvetica, sans-serif;">
-                          My content will showcase a little bit of everything about my personal life.
-                        </p>
+              <div class="container-lg p-10 m-5 bg-holder bg-dark-gradient" id="Content">
+                        <div class="row flex">
+                          <div class="col-sm-10 col-md-6 col-lg-12">
+                            <div class="col-12 position-relative ms-auto pt-5 bg-dark">
+                              <a class="carousel-control-prev carousel-icon z-index-2" href="#carouselFade" role="button" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="">Previous</span></a><a class="carousel-control-next carousel-icon z-index-2" href="#carouselFade" role="button" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="">Next</span>
+                              </a>
+                            </div>
+                            <div class="carousel slide carousel-fade bg-gradient" id="carouselFade" data-bs-ride="carousel">
+                              <div class="carousel-inner bg-dark-gradient">
+                                <div class="carousel-item bg-dark-gradient active" data-bs-interval="20000">
+                                  <div class="row">
+                                    <div class="container col-3">
+                                      <img src="/img/About/Smiling.jpg" alt="">
+                                    </div>
+                          <div class="container bg-dark-gradient col-8 justify-content-end" style="text-align:end">
+                              <h5 class="fs-3 fs-lg-5 lh-sm">
+                                Hello!
+                              </h5>
+                              <p class="my-4 pe-xl-5 text-white" style="font-size: 2.5rem ; font-style: bold; font-family: Arial, Helvetica, sans-serif;">
+                                My content will showcase a little bit of everything about my personal life.
+                            </p>
+                          </div>
+                        </div>
+                      </div>                    
+                      <div class="carousel-item" data-bs-interval="20000">
+                        <div class="row">
+                          <div class="container col-4">
+                            <img src="/img/About/Drumline DIY.jpg" alt="">
+                          </div>
+                            <div class="container bg-dark-gradient col-8 justify-content-end" style="text-align:end">
+                                <h5 class="fs-3 fs-lg-5 lh-sm">
+                                  Bio-Trivia
+                                </h5>
+                                <p class="my-4 pe-xl-5 text-white" style="font-size: 2.5rem ; font-family: Arial, Helvetica, sans-serif;">
+                                Babes in Toyland is an all time facvorite movie. I loved the idea growing up of an army of toys coming to the heroes rescue.
+                              </p>
+                            </div>
+                          </div>
+                        </div>                 
+                        <div class="carousel-item" data-bs-interval="20000">
+                          <div class="row">
+                            <div class=" container col-4">
+                              <img src="/img/About/At the Range.jpg" alt="">
+                            </div>
+                            <div class="container bg-dark-gradient col-8 justify-content-end" style="text-align: end;">
+                                <h5 class="fs-3 fs-lg-5 lh-sm">
+                                    Self-Defense
+                                </h5>
+                                <p class="my-4 pe-xl-5 text-white" style="font-size: 2.5rem ; font-family: Arial, Helvetica, sans-serif;">
+                                  I have content related to self-defense which includes fire-arms training, expereince posesing CCW licensing, and years as security doing open carry work.
+                                 </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item" data-bs-interval="20000">
+                            <div class="row">
+                              <div class=" container col-4">
+                                <img src="/img/About/New Style.jpg" alt="">
+                              </div>
+                              <div class="container bg-dark-gradient col-8 justify-content-end" style="text-align: end;">
+                                <h5 class="fs-3 fs-lg-5 lh-sm">Let me show you my wheels!
+                                </h5>
+                                <p class="my-4 pe-xl-5 text-white" style="font-size: 2.5rem ; font-family: Arial, Helvetica, sans-serif;">Suprise! This is where life is at at the moment.
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                  </div>                    
-                  <div class="carousel-item" data-bs-interval="20000">
-                    <div class="row">
-                      <div class="container col-4">
-                        <img src="/img/About/Drumline DIY.jpg" alt="">
-                      </div>
-                      <div class="container bg-dark-gradient col-8 justify-content-end" style="text-align:end">
-                        <h5 class="fs-3 fs-lg-5 lh-sm">
-                          Bio-Trivia
-                        </h5>
-                        <p class="my-4 pe-xl-5 text-white" style="font-size: 2.5rem ; font-family: Arial, Helvetica, sans-serif;">
-                          Babes in Toyland is an all time facvorite movie. I loved the idea growing up of an army of toys coming to the heroes rescue.
-                        </p>
-                      </div>
-                    </div>
-                  </div>                 
-                  <div class="carousel-item" data-bs-interval="20000">
-                    <div class="row">
-                      <div class=" container col-4">
-                        <img src="/img/About/New Drum Kit.jpg" alt="">
-                      </div>
-                      <div class="container bg-dark-gradient col-8 justify-content-end" style="text-align: end;">
-                        <h5 class="fs-3 fs-lg-5 lh-sm">
-                          Music
-                        </h5>
-                        <p class="my-4 pe-xl-5 text-white" style="font-size: 2.5rem ; font-family: Arial, Helvetica, sans-serif;">
-                          As a musician I played drums and focused my studies in Jazz Performance. The drum kit I would have played on a regular basis would have been similar to the image you see in my conent viewer.
-                      </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        </div>
       </section>
-      <section class="py-0 pb-6" id="My Projects">
+      <Section class="" id="tour button">
+        <div class="container-xlg m-5 bg-holder">
+          <div class="row" id="tour">
+              <div class="container d-flex col-12">
+                <div class="col-3 ms-5 align-content-center justify-content-start" id="nav button">
+                  <button class="btn btn-lg btn-primary text-capitalize p-2rem" style="font-size: xx-large;" type="button" data-toggle="collapse" data-target="#tour" aria-expanded="true" aria-controls="collapseExample">Taka a Tour!
+                  </button>
+                </div>
+                <div class="container d-flex col-8 justify-content-center" id="tour article">
+                  <div class="card bg-dark card-body">
+                    <article>
+                      <p style="font-size: 2rem;">
+                        Follow the "Hola Mundo!" menu tab to take a suggested direction through my content. If you get lost make you can just the other menu options to find a good page to go back too.
+                      </p>
+                    </article>    
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </Section>
+      <section class="pb-6" id="My Projects">
         <div class="container">
-          <div class="row h-100">
+          <div class="row d-flex">
             <div class="col-lg-7 mt-7">
               <a href="/My Projects.html"
                 ><h5 class="fs-3 fs-lg-5 lh-sm mb-0 text-uppercase">
                   My Projects
-                </h5></a
-              >
+                </h5></a>
             </div>
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-indicators">
@@ -239,23 +230,28 @@
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="/img/About/At the Range.jpg" class="d-block w-100" alt="...">
+            <div
+                class="carousel slide carousel-fade bg-dark"
+                id="carouselFade"
+                data-bs-ride="carousel">
+                <div class="carousel-inner bg-dark-gradient">
+                  <div class="carousel-item bg-dark-gradient active" data-bs-interval="20000">
+                    <div class="row">
+                <img src="/img/Range/Silhouette.JPG" class="d-block w-100" alt="...">
                   <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
+                    <h3>Self-Defense</h3>
                     <p>Some representative placeholder content for the first slide.</p>
                   </div>
               </div>
               <div class="carousel-item">
-                <img src="/img/About/Fresh out of Surgery.jpg" class="d-block w-100" alt="...">
+                <img src="/img/About/at movies.jpeg" class="d-block w-100" alt="...">
                   <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
+                    <h5>My Mobility</h5>
                     <p>Some representative placeholder content for the second slide.</p>
                   </div>
               </di>
                 <div class="carousel-item">
-                  <img src="/img/" class="d-block w-100" alt="...">
+                  <img src="/img/About/Curious Pup.jpg class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>Third slide label</h5>
                       <p>Some representative placeholder content for the third slide.</p>
@@ -281,7 +277,7 @@
               ><h3 class="fs-3 fs-lg-5 lh-sm mb-0 text-uppercase">
                 In Memorium
               </h3></a>
-              <h4>Mike Jackson was a father figure, personal friend and confidant, mentor, and all around great guy. I shared and involved him in 20 years of my life. Things simply are not the same without him. Moving forward will never be the samne now and I would never be who I am without him. He was always and would be proud of personal accomplishments such as this.</h4>
+              <h4>Mike Jackson was a father figure, personal friend and confidant, mentor, and all around great guy. I shared and involved him in 20 years of my life. Things simply are not the same without him. Moving forward will never be the same now and I would never be who I am without him. He was always and would be proud of personal accomplishments such as this.</h4>
           <div class=""></div>
           </div>
           <div class="row">
@@ -309,7 +305,7 @@
             <div class="col-sm-6 col-lg-3 mb-4 mb-lg-0 d-flex flex-end">
               <img
                 class="float-end fit-contain"
-                src="/img/Mike Photos/Muscle Beach.JPEG"
+                src="/img/Mike Photos/Muscle Beach Adjusted.JPEG"
                 alt="Beach"
               />
             </div>
