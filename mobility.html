@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Project 0 | Mac Mac's Mentor</title>
+    <title>Project 0 | Mac Mac's Animals</title>
     <meta name="description" content=" About Coder by the name of Mac Mac" />
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -58,9 +58,15 @@
               </li>
               <li class="nav-item px-2">
                 <a class="nav-link fw-bold" href="/My Projects.html">My Projects</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="/puppy.html">Puppies and Kittens</a></li>
+                        <li><a class="dropdown-item" href="#top">Music/a></li>
+                        <li><a class="dropdown-item" href="/mobility.html">Mobility</a></li>
+                        <li><a class="dropdown-item" href="/range.html">Self-Defense</a></li>
+                    </ul>
               </li>
               <li class="nav-item px-2">
-                <a class="nav-link fw-bold" href="#top">Memorium</a>
+                <a class="nav-link fw-bold" href="/in memorium.html">Memorium</a>
               </li>
             </ul>
           </div>
@@ -71,27 +77,62 @@
         <div class="row">
           <div class="col-lg-7 mx-auto text-center my-5">
             <h5 class="fs-3 fs-lg-5 lh-sm mb-0 text-uppercase px-100" id="memorium-txt">
-                My content is dedicated to Mike Jackson who passed unepxectedley.
+                I'm partial to taking on "Puppies and Kittens".
             </h5>
+            <h6>But if you also happen to get the double entendre I won't blame you for anything.</h6>
           </div>
         </div>
       </div>
       <div class="container">
         <audio controls autoplay src="/audio/Mike Jackson voicemail-1070.mp3" type="audio/mpeg"></audio>
       </div>
+      <div class="container">  
+        <div class="row">
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselLatest"
+              data-bs-slide="prev"
+                        >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselLatest"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next </span>
+            </button>
+         </div>
+      </div>
+      <!-- end of .navbutton-->
       <div class="container">
         <div class="row">
           <div class="row flex-center h-100">
             <div class="col-xl-12">
+              <div class="carousel slide" id="carouselmemorial" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
                     <div class="row h-100 justify-content-center">
                       <div class="col-md-6 mb-4">
                         <div class="card h-100 shadow card-span p-3 bg-black">
                           <div class="card-body">
                             <div class="d-flex align-items-center">
-                              <img class="img-fluid"
-                                src="/img/Mike Photos/Teens years with Mike.JPEG"
+                              <img
+                                class="img-fluid"
+                                src="/img/About/Harrison.jpg"
                                 sizes=""
-                                alt="testimonials"/>
+                                alt="testimonials"
+                              />
+                              <div class="flex-1 ms-4">
+                                <h6 class="fs-lg-1 mb-1 text-uppercase">
+                                  Mike, Kyle, and ME
+                                </h6>
+                              </div>
                             </div>
                             <p class="mb-0 mt-4 fw-light lh-lg"
                                style="font-size: 2rem;">
@@ -110,6 +151,11 @@
                                 width="auto"
                                 alt="Over Your Shoulder"
                               />
+                              <div class="flex-1 ms-4">
+                                <h6 class="fs-lg-1 mb-1 text-uppercase">
+                                  Silly Moments
+                                </h6>
+                              </div>
                             </div>
                             <p class="mb-0 mt-4 fw-light lh-lg"
                             style="font-size: 2rem ;">
@@ -120,6 +166,28 @@
                       </div>
                     </div>
                   </div>
+                </div>
+                <div class="row mt-5 flex-center">
+                  <div class="col-auto position-relative z-index-2">
+                    <ol class="carousel-indicators">
+                      <li
+                        class="active mx-2"
+                        data-bs-target="#carouselTestimonials"
+                        data-bs-slide-to="0"
+                      ></li>
+                      <li
+                        class="mx-2"
+                        data-bs-target="#carouselTestimonials"
+                        data-bs-slide-to="1"
+                      ></li>
+                      <li
+                        class="mx-2"
+                        data-bs-target="#carouselTestimonials"
+                        data-bs-slide-to="2"
+                      ></li>
+                    </ol>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
