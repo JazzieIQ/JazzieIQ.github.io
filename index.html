@@ -199,10 +199,10 @@
           <div class="row" id="tour">
               <div class="container d-flex col-12">
                 <div class="col-3 ms-5 align-content-center justify-content-start" id="nav button">
-                  <button class="btn btn-lg btn-primary text-capitalize p-2rem" style="font-size: xx-large;" type="button" data-toggle="collapse" data-target="#tour" aria-expanded="true" aria-controls="collapseExample">Taka a Tour!
+                  <button class="btn btn-lg btn-primary text-capitalize p-2rem" style="font-size: xx-large;" type="button" data-toggle="visually-hidden" data-target="#tour article" aria-expanded="false" aria-controls="tour article">Taka a Tour!
                   </button>
                 </div>
-                <div class="container d-flex col-8 justify-content-center" id="tour article">
+                <div class="container visually-hidden-active d-flex col-8 justify-content-center" id="tour article">
                   <div class="card bg-dark card-body">
                     <article>
                       <p style="font-size: 2rem;">
@@ -222,7 +222,7 @@
               <a href="/my projects.html"
                 ><h5 class="fs-3 fs-lg-5 lh-sm mb-0 text-uppercase">
                   My Projects
-                </h5></a>
+                </h5></a><br>
             </div>
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-indicators">
@@ -241,11 +241,6 @@
               </div>
             </div>
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#Silhouette" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#Mobility" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#self-defense" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              </div>
               <div class="carousel-item bg-dark-gradient" id="Mobility" data-bs-interval="8000">
                 <div class="row">
                   <img src="/img/About/at movies.jpeg" class="d-block w-100" alt="..."></img>
@@ -256,32 +251,24 @@
                 </div>
               </div>
             </div>
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#Silhouette" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#Mobility" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#self-defense" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              </div>
-              <div class="carousel-inner bg-dark-gradient">
-                  <div class="carousel-item bg-dark-gradient" id="self-defense" data-bs-interval="8000">
-                    <div class="row">
-                        <img src="/img/Range/Silhouette.JPG" class="d-block w-100" alt="..."></img>
-                      <div class="carousel-caption d-none d-md-block">
-                        <h3>Self-Defense</h3>
-                        <p>I have a goal to continue training with firearms.</p>
-                      </div>
-                    </div>
+            <div class="carousel-inner bg-dark-gradient">
+              <div class="carousel-item bg-dark-gradient" id="self-defense" data-bs-interval="8000">
+                <div class="row">
+                  <img src="/img/Range/Silhouette.JPG" class="d-block w-100" alt="..."></img>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h3>Self-Defense</h3>
+                    <p>I have a goal to continue training with firearms.</p>
                   </div>
                 </div>
               </div>
-           </div>
+            </div>
+          </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
            <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
-          </div>
         </div>
       </section>
       <!-- ============================================-->
