@@ -218,9 +218,10 @@ sup {
 }
 
 a {
-  color: #212121;
+  color: red;
   text-decoration: none;
 }
+
 a:hover {
   color: #1a1a1a;
   text-decoration: none;
