@@ -95,16 +95,16 @@
       </nav>
       <section class="mt-10" id="header">
         <div class="container-lg bg-holder bg-dark-gradient">
-          <div class="row min-vh-100 min-vh-xl-100">
+          <div class="row">
             <div class="container-lg">
               <div class="container d-flex col-12">
-                <div class="col-4">
+                <div class="col-lg-4 col-md-2">
                   <h1 class="fst-normal text-light">
                     Welcome to my small world of content!
                   </h1>
                 </div>
-                <div class="container d-flex contain col-md-6 col-lg-8">
-                  <iframe
+                <div class="container d-flex contain col-sm-2 col-md-4 col-lg-8">
+                  <iframe class=""
                   width="800"
                   height="500"
                   src="https://www.youtube.com/embed/cnYwATiXSNc?autoplay=0"
@@ -144,25 +144,40 @@
                       </div>                    
                       <div class="carousel-item" data-bs-interval="20000">
                         <div class="row">
-                          <div class="container col-4">
+                          <div class="container col-6">
                             <img src="/img/About/Drumline DIY.jpg" alt="">
                           </div>
-                            <div class="container bg-dark-gradient col-8 justify-content-end" style="text-align:end">
+                            <div class="container bg-dark-gradient col-6 justify-content-end" style="text-align:end">
                                 <h5 class="fs-3 fs-lg-5 lh-sm">
                                   Bio-Trivia
                                 </h5>
                                 <p class="my-4 pe-xl-5 text-white" style="font-size: 2.5rem ; font-family: Arial, Helvetica, sans-serif;">
-                                Babes in Toyland is an all time facvorite movie. I loved the idea growing up of an army of toys coming to the heroes rescue.
+                                  "Babes in Toyland" is an all time favorite movie. I loved the idea growing up of an army of toys coming to the heroes rescue.
                               </p>
                             </div>
                           </div>
-                        </div>                 
+                        </div>
                         <div class="carousel-item" data-bs-interval="20000">
                           <div class="row">
-                            <div class=" container col-4">
+                            <div class="container col-lg-6">
+                              <img src="/img/About/Serious.jpg" alt="">
+                            </div>
+                            <div class="container bg-dark-gradient col-6 justify-content-end" style="text-align:end">
+                                <h5 class="fs-3 fs-lg-5 lh-sm">
+                                  Bio-Trivia
+                                </h5>
+                                <p class="my-4 pe-xl-5 text-white" style="font-size: 2.5rem ; font-family: Arial, Helvetica, sans-serif;">
+                                  I've had cats and dogs as pets all my life. After visiting my allergist recently I've been informed that I'm allergic to dogs and cats. Go figure! 
+                                </p>
+                            </div>
+                          </div>
+                        </div>                   
+                        <div class="carousel-item" data-bs-interval="20000">
+                          <div class="row">
+                            <div class=" container col-6">
                               <img src="/img/About/At the Range.jpg" alt="">
                             </div>
-                            <div class="container bg-dark-gradient col-8 justify-content-end" style="text-align: end;">
+                            <div class="container bg-dark-gradient col-6 justify-content-end" style="text-align: end;">
                                 <h5 class="fs-3 fs-lg-5 lh-sm">
                                     Self-Defense
                                 </h5>
@@ -173,11 +188,26 @@
                             </div>
                           </div>
                           <div class="carousel-item" data-bs-interval="20000">
+                          <div class="row">
+                            <div class="container col-6 d-flex">
+                              <img src="/img/About/Casino and Coffee.jpg" alt="">
+                            </div>
+                            <div class="container bg-dark-gradient col-6 justify-content-end" style="text-align:end">
+                                <h5 class="fs-3 fs-lg-5 lh-sm">
+                                  Bio-Trivia
+                                </h5>
+                                <p class="my-4 pe-xl-5 text-white" style="font-size: 2.5rem ; font-family: Arial, Helvetica, sans-serif;">
+                                  I've been drinking coffee since I was two. Of course in the beginning it was decaf. 
+                                </p>
+                            </div>
+                          </div>
+                        </div> 
+                          <div class="carousel-item" data-bs-interval="20000">
                             <div class="row">
-                              <div class=" container col-4">
+                              <div class=" container col-6">
                                 <img src="/img/About/New Style.jpg" alt="">
                               </div>
-                              <div class="container bg-dark-gradient col-8 justify-content-end" style="text-align: end;">
+                              <div class="container bg-dark-gradient col-6 justify-content-end" style="text-align: end;">
                                 <h5 class="fs-3 fs-lg-5 lh-sm">Let me show you my wheels!
                                 </h5>
                                 <p class="my-4 pe-xl-5 text-white" style="font-size: 2.5rem ; font-family: Arial, Helvetica, sans-serif;">Suprise! This is where life is at at the moment.
@@ -224,51 +254,85 @@
                   My Projects
                 </h5></a><br>
             </div>
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div id="slides" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-controls">
+                <button class="carousel-control-prev" type="button" data-bs-target="#slides" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#slides" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="carousel-inner contain d-flex bg-dark-gradient">
+                <div class="carousel-item bg-dark-gradient active" id="Silhouette" data-bs-interval="10000">
+                  <div class="row">
+                    <div class="container d-flex">
+                    <a href="/music.html"><img src="/img/Music/Project.jpg" class="d-flex" alt="..."></img></a></div>
+                    <div class="carousel-caption col-8 justify-content-center align-content-center">
+                      <div class="container bg-dark-gradient">
+                        <h3 class="text-danger bg-dark-gradient d-flex" style="font-size:3rem;font-style: bold; flex-shrink: inherit;">Music</h3>
+                        <h4 class="text-danger bg-dark-gradient d-flex" style="font-size:3rem;font-style: bold; flex-shrink: inherit;">My goal is to get back to my first instrument I began to play; the drums.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item bg-dark-gradient" id="Mobility" data-bs-interval="10000">
+                  <div class="row">
+                    <a href="/mobility.html"><img src="/img/About/Me Standing.jpg" class="d-flex" alt="..."></img></a>
+                    <p class="caption" style="font-style:bold;">Circa 2018</p>
+                    <div class="carousel-caption col-8 justify-content-center align-content-center">
+                      <div class="container bg-dark-gradient">
+                        <h3 class="text-danger bg-dark-gradient" style="font-size:3rem;font-style: bold;">My Mobility</h3>
+                        <h4 class="text-danger bg-dark-gradient" style="font-size:3rem;font-style: bold;">I have a goal to become independant once again and go on adventures without much help.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item bg-dark-gradient" id="self-defense" data-bs-interval="10000">
+                  <div class="row">
+                    <a href="/range.html"><img src="/img/Range/Silhouette.JPG" class="d-flex" alt="..."></img></a>
+                    <div class="carousel-caption col-8 justify-content-center align-content-center">
+                      <div class="container bg-dark-gradient">
+                        <h3 class="text-danger bg-dark-gradient" style="font-size:3rem;font-style: bold;">Self-Defense</h3>
+                        <h4 class="text-danger bg-dark-gradient" style="font-size:3rem;font-style: bold;">I have a goal to continue training with firearms.</img>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item bg-dark-gradient" id="puppy" data-bs-interval="10000">
+                  <div class="row">
+                    <div class="container d-flex">
+                      <a href="/puppy.html"><img src="/img/puppy/My Puppy and Me.JPEG" class="d-flex" alt="..."></img></a>
+                    </div>
+                    <div class="carousel-caption col-8 justify-content-center align-content-center">
+                      <div class="container bg-dark-gradient">
+                        <h3 class="text-danger bg-dark-gradient" style="font-size:3rem;font-style: bold;">Puppy</h3>
+                        <h4 class="text-danger bg-dark-gradient" style="font-size:3rem;font-style: bold;">i'm a big pet lover.</h4>                      
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item bg-dark-gradient" id="kitty" data-bs-interval="10000">
+                  <div class="row">
+                    <div class="container d-flex">
+                    <a href="/kitties.html"><img src="/img/puppy/Pets for Treats resize.jpg" class="d-flex fit-cover" alt="..."></img></a>
+                    </div>
+                    <div class="carousel-caption col-8 justify-content-center align-content-center">
+                      <div class="container bg-dark-gradient">
+                        <h3 class="text-danger bg-dark-gradient" style="font-size:3rem;font-style: bold;">Kitty</h3>
+                        <h4 class="text-danger bg-dark-gradient" style="font-size:3rem;font-style: bold;">If you have treats he'll let you pets.</h4>                     
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#Silhouette" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#Mobility" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#self-defense" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              </div>
-              <div class="carousel-item bg-dark-gradient active" id="Silhouette" data-bs-interval="8000">
-                <div class="row">
-                  <img src="/img/Range/Silhouette.JPG" class="d-block w-100" alt="..."></img>
-                  <div class="carousel-caption d-none d-md-block">
-                    <h3>Self-Defense</h3>
-                    <p>Some representative placeholder content for the first slide.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-item bg-dark-gradient" id="Mobility" data-bs-interval="8000">
-                <div class="row">
-                  <img src="/img/About/at movies.jpeg" class="d-block w-100" alt="..."></img>
-                  <div class="carousel-caption d-none d-md-block">
-                    <h3>My Mobility</h3>
-                    <p>I have a goal to become independant once again and go on adventures without much help.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-inner bg-dark-gradient">
-              <div class="carousel-item bg-dark-gradient" id="self-defense" data-bs-interval="8000">
-                <div class="row">
-                  <img src="/img/Range/Silhouette.JPG" class="d-block w-100" alt="..."></img>
-                  <div class="carousel-caption d-none d-md-block">
-                    <h3>Self-Defense</h3>
-                    <p>I have a goal to continue training with firearms.</p>
-                  </div>
-                </div>
+                <button type="button" data-bs-target="#puppy" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#kitty" data-bs-slide-to="4" aria-label="Slide 5"></button>
               </div>
             </div>
           </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
         </div>
       </section>
       <!-- ============================================-->
@@ -279,8 +343,9 @@
             <a href="/in memorium.html"
               ><h3 class="fs-3 fs-lg-5 lh-sm mb-0 text-uppercase">
                 In Memorium
-              </h3></a>
+              </h3>
               <h4>Mike Jackson was a father figure, personal friend and confidant, mentor, and all around great guy. I shared and involved him in 20 years of my life. Things simply are not the same without him. Moving forward will never be the same now and I would never be who I am without him. He was always and would be proud of personal accomplishments such as this.</h4>
+              </a>
           <div class=""></div>
           </div>
           <div class="row">
@@ -301,7 +366,7 @@
             <div class="col-sm-6 col-lg-3 mb-4 mb-lg-0 d-flex flex-end-center">
               <img
                 class="float-center fit-contain"
-                src="/img/Mike Photos/intrepid Trio.jpg"
+                src="/img/Mike Photos/Trio.jpg"
                 alt="Friends to the End"
               />
             </div>
@@ -371,7 +436,7 @@
     <!-- ===============================================-->
     <!--    JavaScripts-->
     <!-- ===============================================-->
-    <script src="public/vendors/@popperjs/popper.min.js"></script>
+    <script src="/public/vendors/@popperjs/popper.min.js"></script>
     <script src="/public/vendors/bootstrap/bootstrap.min.js"></script>
     <script src="/public/vendors/is/is.min.js"></script>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
