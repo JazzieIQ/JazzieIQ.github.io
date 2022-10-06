@@ -231,7 +231,8 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
   text-decoration: none;
 }
-a;.nav-a:hover {
+
+a.nav-a:hover {
   color: #1a1a1a;
   text-decoration: none;
 }
