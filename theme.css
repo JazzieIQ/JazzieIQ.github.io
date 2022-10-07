@@ -4755,6 +4755,8 @@ fieldset:disabled .btn {
 .tab-content > .active {
   display: block;
 }
+.navbarnav{
+  color: white;}
 
 .navbar {
   position: relative;
